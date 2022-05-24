@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SIGN UP</title>
+  </head>
+  <body>
+    <form class="formbox" action="#" method="post">
+      <h1 class="signuptitle">Sign up</h1>
+
+      <label for="name">
+        Name:
+        <input
+          type="text"
+          placeholder="   Type Name here   "
+          style="border: none; background: none; outline: none"
+          required
+        />
+      </label>
+
+      <label for="email">
+        Email:
+        <input
+          type="email"
+          placeholder="   Type Email here   "
+          style="border: none; background: none; outline: none"
+          required
+        />
+      </label>
+
+      <label class="phone" for="phoneno">
+        <select class="countrycode" name="country" id="">
+          <option value="ind">+91</option>
+          <option value="pak">+92</option>
+          <option value="afg">+93</option>
+          <option value="ban">+94</option>
+        </select>
+        <input
+          type="text"
+          placeholder="   Valid Phone number    "
+          style="border: none; background: none; outline: none"
+          maxlength="11"
+        />
+      </label>
+
+      <label class="password" for="password">
+        Password:
+        <input
+          type="password"
+          placeholder="   Min 8 Characters    "
+          style="border: none; background: none; outline: none"
+          minlength="8"
+          required
+        />
+      </label>
+
+      <label class="cpassword" for="password">
+        Confirm Password:
+        <input
+          type="password"
+          placeholder="   Min 8 Characters    "
+          style="border: none; background: none; outline: none"
+          minlength="8"
+          required
+        />
+      </label>
+
+      <label class="gender" for="gender">
+        Gender
+        <input class="radiobtn" type="radio" name="Gender" />Male
+        <input class="radiobtn" type="radio" name="Gender" />Female
+      </label>
+
+      <a class="btn" href="#">Sign Up</a>
+    </form>
+  </body>
+</html>

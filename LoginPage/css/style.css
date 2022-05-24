@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.signuptitle {
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: tomato;
+}
+
+.signuptitle:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+
+.formbox {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 650px;
+    border: tomato 2px solid;
+    border-radius: 40px;
+    background-color: aliceblue;
+    color: tomato;
+    box-shadow: orangered 10px 10px 10px -6px;
+    font-size: small;
+    font-weight: 600;
+    font-family: Tahoma;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    border: 1.5px tomato solid;
+    border-radius: 10px;
+}
+
+
+a {
+    margin: 20px;
+    padding: 10px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.countrycode {
+    border: none;
+    padding: 0 1px;
+    background: none;
+    font-size: small;
+    font-weight: 600;
+    color: tomato;
+}
+
+.cpassword {
+    display: flex;
+    flex-direction: row;
+}
+
+.gender {
+
+    gap: 10px;
+}
+
+.radiobtn {
+    accent-color: rgb(255, 89, 0);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(249, 108, 83);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+    background-color: orangered;
+}
